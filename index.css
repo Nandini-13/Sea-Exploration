@@ -63,6 +63,10 @@
     font-family: 'Quicksand', sans-serif;
 
 }
+#collab:hover{
+    color: aquamarine !important;
+    text-decoration: none !important;
+}
 #ready:hover{
     background: black;
     color: white;
