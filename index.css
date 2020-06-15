@@ -1,0 +1,72 @@
+#check {
+    width: 55%;
+}
+
+#nav-bar{
+    color: white;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top:0;
+    background: white !important;
+    background-position: center;
+    position: fixed;
+    border-bottom: 2px solid black;
+    box-shadow:  0 18px 16px -6px rgba(0, 0, 0, 0.281);
+}
+
+#main{
+    background-image: url("https://www.aussiediversphuket.com/wp-content/uploads/2015/07/Beach-Dive-Scuba-Diving-Phuket-Kata-Best-Aussie-Divers.jpg");
+    height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0.5%;
+}
+.oneh1{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    color: white;
+    margin: 5%;
+    margin-top: 3%;
+    font-size: 295%;
+    width: 50%;
+    text-shadow: -1px 4px 5px grey;
+}
+.twoh1{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 320%;
+    width: 50%;
+    text-shadow: -1px 4px 4px rgb(190, 220, 252);
+    margin-top:0;
+    color: black;
+}
+#section{
+    height: 100vh;
+    background-image: url("https://s25910.pcdn.co/wp-content/uploads/2018/10/Diver-jumping-off-boat-pixabay.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 7%;
+}
+#ready{
+    padding: 2%;
+    width: 25%;
+    border-radius: 2px;
+    background: none;
+    margin-top: 8%;
+    border: 2px solid black;
+    font-weight: 600;
+    font-size: 200%;
+    font-family: 'Quicksand', sans-serif;
+
+}
+#ready:hover{
+    background: black;
+    color: white;
+    box-shadow: 1px 1px 3px 1px black;
+    transition-duration: 0.7s;
+    outline: none;
+}
