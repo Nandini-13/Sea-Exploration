@@ -1,0 +1,58 @@
+html{
+    scroll-behavior: smooth;
+}
+#znmd-video {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+  }
+  
+#section2{
+    background-image: url('./epipelagicbg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin:0;
+    background-attachment: fixed;
+}
+#content2{
+    background: rgba(255, 255, 255, 0.527);
+    color: black;
+    font-size: 150%;
+    padding: 3%;
+    text-align: center;
+    padding-top: 0%;
+    width: 50%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 10%;
+    border-radius: 4px;
+    font-family: 'Quicksand', sans-serif;
+}
+#content3{
+    background: rgba(255, 255, 255, 0.527);
+    color: black;
+    font-size: 150%;
+    padding: 3%;
+    width: 50%;
+    margin-top: 5%;
+    border-radius: 4px;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 5%;
+}
+
+#section3{
+    background-image: url('./twilight.jpg');
+    
+    background-size: cover;
+    padding: 1%;
+    padding-bottom: 5%;
+    background-position: center;
+    background-attachment: fixed;
+}
+#section{
+
+}

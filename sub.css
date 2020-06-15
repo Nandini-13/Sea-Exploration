@@ -1,0 +1,188 @@
+html{
+    scroll-behavior: smooth;
+}
+/* navigation bar */
+#nav-bar{
+    background-color: white;
+    padding: 0;
+    border-bottom: 2px solid black;
+    box-shadow:  0 18px 16px -6px rgba(0, 0, 0, 0.281);
+    padding-left: 1%;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    
+}
+/* main submarine top */
+#sub {
+    background-image: url(unnamed.jpg);
+    background-size: cover;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-attachment: fixed;
+    
+}
+/* inside submarine content */
+#intro {
+    background-color: rgba(255, 255, 255, 0.562);
+    color: black;
+    text-align: center;
+    width: 62%;
+    font-size: 140%;
+    padding: 2%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    
+}
+/* content below the heading */
+#inside{
+    font-family: 'Quicksand', sans-serif;
+    color: #00171F;
+    text-align: justify;
+}
+/* starting deeper */
+#start {
+    font-family: 'Quantico', sans-serif ;
+    padding: 0.7%;
+    background-color: rgba(0, 0, 0, 0.24);
+    color: white;
+    font-size: larger;
+    border: 2px solid white;
+}
+#start:hover { 
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    transition-duration: 0.7s;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+
+}
+a {
+    text-decoration: none !important;
+    
+}
+a:hover {
+    text-decoration: none !important;
+}
+
+/* midnight zone */
+#midnight {
+    padding: 3%;
+    background-image: url(midnight.jpg);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 8%;
+    background-attachment: fixed;
+}
+#mid-write{
+    margin-right: 2%;
+}
+.depth {
+    float: left;
+    color: white;
+    font-family: 'Quantico', sans-serif ;
+    width: 19%;
+    height: fit-content;
+    font-size: large;
+}
+#flex{
+    display: flex;
+    flex-direction: row;
+}
+#animal-card{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    background: none;
+}
+.no-light{
+    margin-left: 8%;
+    margin-top: 5%;
+    text-align: center;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.541);
+    padding: 2%;
+    width: 53%;
+    height: fit-content;
+}
+.blackness{
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: larger;
+}
+.w3-dropdown-hover{
+    margin-right: 2%;
+    font-size: 160%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    background: none !important;
+    width: 60%;
+    color: white !important;
+    margin-left: 0%;
+    margin-top: 10%;
+}
+.w3-dropdown-hover:hover{
+    text-shadow: 1px 1px 10px white;
+    transition-duration: 0.5s;
+}
+.w3-container {
+    font-size: 60% !important;
+    text-align: center;
+}
+.iconic{
+    border: 2px solid black;
+}
+.iconic:hover {
+    box-shadow: 1px 1px 10px 1px white;
+    transition-duration: 0.5s;
+}
+#abyss {
+    background-image: url('./seafloor.jpg');
+    height: 100%;
+    background-size: cover;
+    padding: 3%;
+    padding-top: 8%;
+    background-attachment: fixed;
+}
+#not-at-all{
+    margin-left: 5%;
+    padding-bottom: 0.1%;
+}
+#hadal {
+    background-image: url('./hades.jpg');
+    background-size: cover;
+    height: 130%;
+    padding: 3%;
+    padding-top: 8%;
+    background-attachment: fixed;
+}
+#hell {
+    margin-left: 36.7%;
+    padding-bottom: 0.1%;
+
+}
+#record{
+    margin-left: 5%;
+    padding-bottom: 0.1%;
+    text-align: center;
+
+}
+#arrow {
+    border-radius: 20%;
+    position: fixed;
+    left: 3%;
+    bottom: 4%;
+
+}
+#arrow:hover{
+    box-shadow: 2px 2px 8px 1px lightslategray;
+}
+
